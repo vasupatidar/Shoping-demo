@@ -1,0 +1,366 @@
+body
+{
+    margin: 0px;
+}
+
+  /*background part*/
+#body-header
+{
+
+    height: 65vh;
+    opacity: 0.7;
+    background-image: url(./images/sepp-rutz-tskqMngoHSA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* unorderd list  1)list style and margin 0 2)padding margin dispay inline block na bhule 3)hover me border bottom 4)color vgwra a me
+bprder bottom k li time trasition nav me lgate hen*/
+
+.horizontal-list
+{
+    padding-left: 0;
+    margin: 0px;
+    list-style: none;
+}
+.horizontal-list li  
+{
+    display: inline-block;
+    margin: 0px 8px;
+    padding-top: 20px ;
+}
+.horizontal-list li  a{
+    text-decoration: none;
+    color: white;
+    
+}
+.text-center 
+{
+    text-align: center;
+}
+.nav-menu li a
+{
+    transition: color 0.5s,border-bottom 4s;
+}
+.nav-menu li  a:hover
+{
+    color:rgb(255, 0, 0);
+    border-bottom:1px solid white;
+}
+
+/* icons container*/
+
+#name-social-container
+{
+  margin-top: 25vh;
+}
+/*my name section*/
+#my-name
+{  
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+/* icons 10redias hmesha a ya i me hi dalti he */
+.social-icons li a i
+{
+    padding: 10px;
+    font-size: 1.5rem;
+   border-radius: 50%;
+}
+.social-icons li a i:hover
+{
+    box-shadow: 0px 0px 6px 4px yellow;
+}
+
+
+
+          /*sections*/
+          /*1)width hight display flex flex direc aline*/
+section
+{
+  /*  width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;*/
+
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+section:nth-child(2n)
+{
+  background-color: white;
+}
+section:nth-child(2n+1)
+{
+  background-color:gray;
+}
+
+#about
+{
+    height: 35vh;
+    width: 100%;
+   
+    position: relative;
+}
+
+
+
+/*image section* 1)margin aouti bich me lane k lie*/
+#my-image
+{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -15vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+ /*para section 1)para ki hight width lgane se wo chota bda ho jata he*/
+#about-para{
+    padding: 10px;
+   width: 70%;
+   height: 100%;
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:black;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+/*skill section*/ 
+/* wrap matlab ek se jyada justify space beetween mean even */
+.section-heading
+{
+    width: auto;
+    padding: 20px 10px 10px;
+    
+    font-weight: 400;
+}
+.section-heading span
+{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+
+}
+.mb75bx
+{
+    margin-bottom: 75px;
+}
+.skill-display
+{
+    width: 70%;
+    margin-top: 4rem;
+   
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*skill 2nd*/
+.skill-progress
+{
+    /*this is for outer cerculer box)*/
+    width: 7rem;
+    height: 1.4rem;
+    margin: 20px;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: inset 1px 1px 2px 1px #b9b9b9;
+}
+/*.skill-prograse>div {
+    border-radius: 20px 0px 0px 20px;
+}*/
+
+.skill-name  {
+    font-size: 15px;
+    color: white;
+    padding: 6px 10px 10px 20px;
+
+}
+.skill-name span {
+    margin: 0;
+}
+
+.eghty-five-persant
+{
+    width: 85%;
+    height: inherit;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+
+.mb-orange {
+    background-color: #ff5722;
+}
+
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+.seventy-five-percent {
+    height: inherit;
+    width: 75%;
+}
+
+/*common margin classes */
+
+
+
+
+
+.mb-teal {
+    background-color: #009688;
+}
+
+
+
+.m-blue {
+    color: #2857a4;
+}
+
+
+/*portfolio*/
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 2%;
+    justify-content: space-around;
+}
+
+
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-details {
+    /* display: none; */
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+    /* background-color: white; */
+}
+
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    /* display: block; */
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 2%;
+    justify-content: space-around;
+}
+
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-details {
+    /* display: none; */
+ /*   transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+    /* background-color: white; *
+}*/
+/*
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    /* display: block; 
+    color: white;
+}*/

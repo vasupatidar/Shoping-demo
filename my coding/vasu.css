@@ -1,0 +1,118 @@
+body
+{
+    font-family: 'Noto Serif', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/abs-gcd30d2519_1920.jpg);
+   
+    
+}
+.left
+{
+    display: inline-block;
+     
+     position: absolute;
+     left: 43px;
+     top: 24px;
+}
+.right
+{
+    position: absolute;
+    right: 34px;
+    top: 24px;
+    display: inline-block;
+    
+}
+.mid
+{
+    display:block ;
+    width: 63%;
+    margin: 37px auto;
+    
+}
+.navbar
+{
+    display: inline-block;
+}
+.navbar li
+{
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+}
+.navbar li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 23px 23px;
+}
+.navbar li a:hover, .navbar li a.active
+{
+    text-decoration: underline;
+    color: yellow;
+}
+.left img
+{
+    width: 110px;
+   margin-bottom: -30px;
+    margin-left: -29px;
+    margin-top: -8px;
+}
+.left div
+{
+    text-align: center;
+    font-size: 24px;
+    margin: 6px;
+    padding:4px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Noto Serif', serif;
+
+}
+.btn
+{
+    margin: 30px 3px;
+    color: white;
+    background-color: black;
+    padding: 6px 24px;
+    border: 2px solid rgb(187, 187, 184);
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    
+     background-color:white;
+    color:black;
+   
+}
+.contaner
+{
+    border: 2px solid white;
+    margin: 163px 80px;
+    padding: 45px;
+    width: 33%;
+    border-radius: 41px;
+
+
+}
+.form-group input
+{
+    text-align: center;
+    display: block;
+    width: 504px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 20px auto;
+    border-radius: 20px;
+
+}
+.contaner button
+{
+    display: block;
+    width: 37%;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 12px;
+}
